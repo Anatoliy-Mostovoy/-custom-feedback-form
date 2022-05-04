@@ -269,6 +269,32 @@ summary {
   display: list-item;
 }
 
+.formInputName, .formFeedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formInputName-label, .formFeedback-label {
+  margin: 0 auto 5px;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(252, 102, 43, 0.7);
+}
+
+.formInputName-input, .formFeedback-input {
+  padding: 5px;
+  border: 2px solid rgba(252, 102, 43, 0.7);
+  border-radius: 10px;
+  color: red;
+  resize: none;
+}
+
 .overlay {
   max-width: 1430px;
   padding: 15px;
@@ -298,49 +324,7 @@ summary {
   border-radius: 10px;
 }
 
-.formInputName {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 15px;
-}
-
-.formInputName-label {
-  margin: 0 auto 5px;
-  color: rgba(252, 102, 43, 0.7);
-}
-
-.formInputName-input {
-  padding: 5px;
-  border: 2px solid rgba(252, 102, 43, 0.7);
-  border-radius: 10px;
-}
-
-.formFeedback {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 15px;
-}
-
-.formFeedback-label {
-  margin: 0 auto 5px;
-  color: rgba(252, 102, 43, 0.7);
-}
-
 .formFeedback-input {
-  padding: 5px;
-  border: 2px solid rgba(252, 102, 43, 0.7);
-  border-radius: 10px;
-  color: red;
   resize: none;
 }
 

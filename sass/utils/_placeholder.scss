@@ -1,0 +1,20 @@
+%formFeedbackMain{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+}
+
+%formLabelStyle{
+    margin: 0 auto 5px;
+    font-size: $labelTextSize;
+    font-weight: $labelTextWeight;
+    color: $frameForm;
+}
+
+%formInputStyle{
+    padding: 5px;
+    border: 2px solid $frameForm;
+    border-radius: 10px;
+    color:red;
+    resize: none;
+}

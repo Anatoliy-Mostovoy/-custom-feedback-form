@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
-    @include button($borderBtn, $bgcBtn,$textBtn)
+    @include button($borderBtn, $bgcBtn,$textBtn);
     cursor: pointer;
 
     &:hover{

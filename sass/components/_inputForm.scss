@@ -1,16 +1,11 @@
 .formInputName{
-    display: flex;
-    flex-direction:column;
-    margin-bottom: 15px;
+    @extend %formFeedbackMain;
 
     &-label{
-        margin: 0 auto 5px;
-        color:$frameForm;
-    }
+       @extend %formLabelStyle
+    };
 
     &-input{
-        padding: 5px;
-        border: 2px solid $frameForm;
-        border-radius: 10px;
+        @extend %formInputStyle;
     }
 }
