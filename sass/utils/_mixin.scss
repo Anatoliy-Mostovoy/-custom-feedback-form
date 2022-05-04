@@ -1,0 +1,5 @@
+@mixin button ($border, $bgc, $text){
+    border: 2px solid $border;
+    background-color:$bgc;
+    color: $text;
+}

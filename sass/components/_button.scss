@@ -2,15 +2,11 @@
     display: block;
     margin: 0 auto;
     padding: 10px;
-    border: 2px solid $frameForm;
     border-radius: 10px;
-    background-color:rgba(3, 56, 202, 0.72);
-    color: white;
+    @include button($borderBtn, $bgcBtn,$textBtn)
     cursor: pointer;
 
     &:hover{
-        background-color:$frameForm;
-        border: 2px solid rgba(3, 56, 202, 0.72);
-        color: rgba(3, 56, 202, 0.72);
+        @include button($borderBtnHover, $bgcBtnHover,$textBtnHover)
     }
 }

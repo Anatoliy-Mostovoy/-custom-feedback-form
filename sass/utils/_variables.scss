@@ -1,2 +1,12 @@
 $mainBgc: teal;
-$frameForm:rgba(252, 102, 43, 0.7)
+$frameForm:rgba(252, 102, 43, 0.7);
+
+//* Style for button
+$borderBtn: rgba(252, 102, 43, 0.7);
+$bgcBtn: rgba(3, 56, 202, 0.72);
+$textBtn: whitesmoke;
+
+//* Style for button:hover
+$borderBtnHover: rgba(3, 56, 202, 0.72);
+$bgcBtnHover: rgba(252, 102, 43, 0.7);
+$textBtnHover: rgba(3, 56, 202, 0.72);
