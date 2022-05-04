@@ -276,6 +276,7 @@ summary {
 }
 
 .container {
+  position: relative;
   height: 900px;
   margin: 0 auto;
   border-radius: 10px;
@@ -283,5 +284,13 @@ summary {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=main.css.map */
