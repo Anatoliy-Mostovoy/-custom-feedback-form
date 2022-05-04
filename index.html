@@ -10,7 +10,32 @@
   </head>
   <body>
     <div class="overlay">
-      <div class="container"></div>
+      <div class="container">
+        <form name="feedBackForm" class="form">
+          <div class="formInputName">
+            <label class="formInputName-label" for="name">Yor name</label>
+            <input
+              class="formInputName-input"
+              type="text"
+              name="userName"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="formFeedback">
+            <label class="formFeedback-label" for="feedback"
+              >Your feedback</label
+            >
+            <textarea
+              class="formFeedback-input"
+              id="feedback"
+              placeholder="Enter your feedback"
+              rows="8"
+            ></textarea>
+          </div>
+          <button type="submit" class="button"></button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
