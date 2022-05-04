@@ -1,0 +1,16 @@
+.formInputName{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+
+    &-label{
+        margin: 0 auto 5px;
+        color:$frameForm;
+    }
+
+    &-input{
+        padding: 5px;
+        border: 2px solid $frameForm;
+        border-radius: 10px;
+    }
+}

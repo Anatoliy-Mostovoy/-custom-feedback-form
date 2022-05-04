@@ -288,9 +288,76 @@ summary {
 
 .form {
   position: absolute;
+  width: 600px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  padding: 10px;
+  border: 5px solid rgba(252, 102, 43, 0.7);
+  border-radius: 10px;
+}
+
+.formInputName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formInputName-label {
+  margin: 0 auto 5px;
+  color: rgba(252, 102, 43, 0.7);
+}
+
+.formInputName-input {
+  padding: 5px;
+  border: 2px solid rgba(252, 102, 43, 0.7);
+  border-radius: 10px;
+}
+
+.formFeedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formFeedback-label {
+  margin: 0 auto 5px;
+  color: rgba(252, 102, 43, 0.7);
+}
+
+.formFeedback-input {
+  padding: 5px;
+  border: 2px solid rgba(252, 102, 43, 0.7);
+  border-radius: 10px;
+  color: red;
+  resize: none;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid rgba(252, 102, 43, 0.7);
+  border-radius: 10px;
+  background-color: rgba(3, 56, 202, 0.72);
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(252, 102, 43, 0.7);
+  border: 2px solid rgba(3, 56, 202, 0.72);
+  color: rgba(3, 56, 202, 0.72);
 }
 /*# sourceMappingURL=main.css.map */
