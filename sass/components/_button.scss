@@ -2,7 +2,6 @@
     display: block;
     @extend %mainButtonStyle;
     @include button($borderBtn, $bgcBtn,$textBtn); //* mixin
-    cursor: pointer;
 
     &:hover{
         @include button($borderBtnHover, $bgcBtnHover,$textBtnHover)

@@ -302,6 +302,7 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .overlay {
@@ -342,7 +343,6 @@ h1, h2, h3, h4, h5 {
   border: 2px solid rgba(252, 102, 43, 0.7);
   background-color: rgba(3, 56, 202, 0.72);
   color: whitesmoke;
-  cursor: pointer;
 }
 
 .button:hover {
