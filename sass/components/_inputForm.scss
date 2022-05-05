@@ -1,5 +1,5 @@
 .formInputName{
-    @extend %formFeedbackMain;
+    @extend %formFeedbackMain; //* placeholder
 
     &-label{
        @extend %formLabelStyle

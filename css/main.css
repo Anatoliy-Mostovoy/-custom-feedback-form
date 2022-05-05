@@ -269,6 +269,10 @@ summary {
   display: list-item;
 }
 
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
 .formInputName, .formFeedback {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,6 +296,12 @@ summary {
   border: 2px solid rgba(252, 102, 43, 0.7);
   border-radius: 10px;
   color: rgba(0, 65, 201, 0.82);
+}
+
+.button, .backdropBlock-button {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .overlay {
@@ -329,9 +339,6 @@ summary {
 
 .button {
   display: block;
-  margin: 0 auto;
-  padding: 10px;
-  border-radius: 10px;
   border: 2px solid rgba(252, 102, 43, 0.7);
   background-color: rgba(3, 56, 202, 0.72);
   color: whitesmoke;
@@ -342,5 +349,51 @@ summary {
   border: 2px solid rgba(3, 56, 202, 0.72);
   background-color: rgba(252, 102, 43, 0.7);
   color: rgba(3, 56, 202, 0.72);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 235, 12, 0.8);
+}
+
+.backdrop.isHidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdropBlock {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 10px;
+  border: 5px solid rgba(8, 94, 210, 0.75);
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+.backdropBlock-text {
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgba(8, 94, 210, 0.75);
+}
+
+.backdropBlock-button {
+  border: 2px solid rgba(8, 94, 210, 0.75);
+  background-color: rgba(210, 111, 8, 0.63);
+  color: rgba(8, 94, 210, 0.75);
 }
 /*# sourceMappingURL=main.css.map */
