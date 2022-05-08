@@ -6,4 +6,6 @@ const refs = {
   feedBackForm: document.querySelector(".form"),
 };
 
-export { refs }; //* Синтаксис экспорта
+const LOCAL_NAME_KEY = "nameUser";
+const LOCAL_FEEDBACK_KEY = "userFeedback";
+export { refs, LOCAL_NAME_KEY, LOCAL_FEEDBACK_KEY }; //* Синтаксис экспорта
