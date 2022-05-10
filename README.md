@@ -3,9 +3,9 @@
  In sass used:
  1. mixin
  2. placeholder
-
 Make correct backdrop
 Used lodash library (package throttle) 
+Make notification after send form
    
 
 //TODO 
