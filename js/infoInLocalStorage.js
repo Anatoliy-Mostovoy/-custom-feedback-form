@@ -1,6 +1,6 @@
 import { refs, LOCAL_KEY } from "./refs.js";
 
-refs.feedBackForm.addEventListener("input", onInputForm);
+refs.feedBackForm.addEventListener("input", _.throttle(onInputForm, 1000));
 refs.feedBackForm.addEventListener("submit", onSubmitForm);
 
 const userData = {};
