@@ -8,6 +8,11 @@ const userData = {};
 checkDataLocalStorage();
 
 function checkDataLocalStorage() {
+  console.log();
+  if (localStorage.length === 0) {
+    return;
+  }
+
   const { userName, userText } = JSON.parse(localStorage.getItem("LOCAL_KEY"));
 
   if (userName !== " " && userText !== " ") {
