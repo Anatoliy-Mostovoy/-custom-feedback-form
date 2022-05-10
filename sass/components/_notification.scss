@@ -1,37 +1,37 @@
-.backdrop{
+.notification{
     position: fixed;
     top:0;
     left:0;
     width: 100%;
     height: 100%;
-    background-color: $bgcBackdrop;
-    
+    background-color: $bgcNotification;
+
     &.isHidden{
         opacity: 0;
-        pointer-events: none; //* can click through the backdrop
+        pointer-events: none;
     }
 }
 
-.backdropBlock{
+.notificationBlock{
     position: absolute;
     display: flex;
     flex-direction:column;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 400px;
     padding: 10px;
-    border: 5px solid $borderBackdrop;
+    border: 5px solid $borderNotification;
     border-radius: 10px;
-    background-color: $bgcBlockBackdrop;
+    background-color: $bgcBlockNotificationBlock;
 
-    &-text{
+    &-tittle{
         margin-bottom: 15px;
         text-align: center;
-        color: $textBackdrop;  
+        color: $textNotification;    
     }
     &-button{
         @extend %mainButtonStyle;
-        @include button($borderBackdropButton, $bgcNotificationButton,$borderBackdropButton)
+        @include button($borderNotificationButton, $bgcBackdropButton,$borderBackdropButton)
     }
 }

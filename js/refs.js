@@ -4,6 +4,7 @@ const refs = {
   inputNameForm: document.querySelector(".formInputName-input"),
   textAreaForm: document.querySelector(".formFeedback-input"),
   feedBackForm: document.querySelector(".form"),
+  closeNotificationBtn: document.querySelector(".notification"),
 };
 
 const LOCAL_KEY = "userData";

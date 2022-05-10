@@ -5,10 +5,9 @@
  2. placeholder
 
 Make correct backdrop
+Used lodash library (package throttle) 
    
 
 //TODO 
 1. Валидацию для вводаимени
-2. иконку для кнопки отправить
-3. добавить лодаш тротл
-4. 
+2. иконку для кнопки отправить 

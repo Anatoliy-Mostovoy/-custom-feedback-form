@@ -8,7 +8,6 @@ const userData = {};
 checkDataLocalStorage();
 
 function checkDataLocalStorage() {
-  console.log();
   if (localStorage.length === 0) {
     return;
   }
@@ -30,4 +29,5 @@ function onSubmitForm(event) {
   event.preventDefault();
   event.currentTarget.reset();
   localStorage.removeItem("LOCAL_KEY");
+  refs.closeNotificationBtn.classList.remove("isHidden");
 }
