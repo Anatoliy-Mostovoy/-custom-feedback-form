@@ -1,0 +1,23 @@
+{
+  "name": "custom-feedback-form",
+  "version": "1.0.0",
+  "description": "custom feedback form (js+css/sass)  In sass used:  1. mixin  2. placeholder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anatoliy-Mostovoy/custom-feedback-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anatoliy-Mostovoy/custom-feedback-form/issues"
+  },
+  "homepage": "https://github.com/Anatoliy-Mostovoy/custom-feedback-form#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1"
+  }
+}

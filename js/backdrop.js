@@ -1,13 +1,17 @@
-import { refs, LOCAL_NAME_KEY } from "./refs.js";
+import { refs, LOCAL_KEY } from "./refs.js";
 
-const dataName = localStorage.getItem("LOCAL_NAME_KEY");
+const dataName = localStorage.getItem("LOCAL_KEY");
 
-if (dataName !== null) {
-  refs.backdrop.classList.add("isHidden");
-}
+checkBackdropLoad();
 
 refs.backdropBtn.addEventListener("click", onBackdropBtnClick);
 
 function onBackdropBtnClick(event) {
   refs.backdrop.classList.add("isHidden");
+}
+
+function checkBackdropLoad() {
+  if (dataName !== null) {
+    refs.backdrop.classList.add("isHidden");
+  }
 }
